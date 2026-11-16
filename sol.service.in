@@ -1,0 +1,9 @@
+[Unit]
+Description=Sunlight alarm
+
+[Service]
+Type=oneshot
+User=@User@
+ExecStart=@ExecStart@
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=@XAuthority@

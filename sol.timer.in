@@ -1,0 +1,9 @@
+[Unit]
+Description=Run sunlight alarm every morning
+
+[Timer]
+OnCalendar=@OnCalendar@
+Unit=@Unit@
+
+[Install]
+WantedBy=timers.target
