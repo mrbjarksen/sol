@@ -15,7 +15,7 @@ $ git clone https://github.com/mrbjarksen/sol
 **Configure:**
 See Makefile for valid options.
 ```
-make configure [desired overrides]
+$ make configure [desired overrides]
 ```
 
 **Build:**
